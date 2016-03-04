@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+	<head>
+		<title>User registration</title>
+	</head>
+	<body>
+		<h1>User registration</h1>
+		<form method="post" action="http://server.prokopski.com/html/receive.php">
+		Username: <input type="text" name="username"><br>
+		<br>
+		E-mail: <input type="text" name="email"><br>
+		<br>
+		Password: <input type="password" name="password1"><br>
+		<br>
+		Repeat password: <input type="password" name="password2"><br>
+		<br>
+		Address: <input type="text" name="address"><br>
+		<br>
+		 
+		 Gender:<b>
+		 <input type="radio" name="gender" value="male"> Male
+		<input type="radio" name="gender" value="female"> Female
+		<input type="radio" name="gender" value="other"> Other
+		
+		<br>
+		<br>
+		Province:
+		<select>
+		<option value="Ontario">Ontario</option>
+		<option value="Quebec">Quebec</option>
+		<option value="Alberta">Alberta</option>
+		<option value="BC">British Columbia</option>
+</select>
+		<br>
+		<br>
+		About me:<br>
+		<textarea name="aboutme" cols="30" rows="5"></textarea>
+		<br>
+		<br>
+		<input type="submit" value="Register">
+		</form>
+		
+		
+	</body>
+	
+	
+</html>

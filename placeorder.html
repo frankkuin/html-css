@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+	<head>
+		<title>Place your order</title>
+	</head>
+	<body>
+		<h1>Place your order</h1>
+		
+		<table border=1 width="800">
+		<tr>
+			<td>#</td>
+			<td>Item</td>
+			<td>Picture</td>
+			<td>Price</td>
+			
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Electric blanket</td>
+			<td><img width="150" src="images/blanket.jpg"></td>
+			<td>23.99</td>
+			
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Sleigh shovel</td> 
+			<td><img width="150" src="images/shovel.jpg"></td>
+			<td>34.50</td>
+			
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Flower vase</td> 
+			<td><img width="150" src="images/vase.jpg"></td>
+			<td>12.99</td>
+			
+		</tr>
+		
+		<tr>
+			<td>Total Price:</td>
+			<td></td> <td></td> 
+			<td>71.48</td>
+			
+		</tr>
+		
+		<tr>
+			<td>GST/QST</td>
+			<td></td> <td></td> 
+			<td>19.30</td>
+			
+		</tr>
+		
+		<tr>
+			<td>Shipping</td>
+			<td></td> <td></td> 
+			<td>18.50</td>
+			
+		</tr>
+		
+		<tr>
+			<td>Grand total</td>
+			<td></td> <td></td> 
+			<td>109.28</td>
+			
+		</tr>
+		</table>
+		
+		<br>
+		<br>
+		
+		<form action="http://server.prokopski.com/html/receive.php" method="post">
+		<label for="firstname">First Name: </label>
+		<input type="text" name="firstname" id="firstname"><br>
+		<br>
+		<label for="lastname">Last Name: </label><input type="text" name="lastname" id="lastname"><br>
+		<br>
+		<label for="address">Street address: </label><input type="text" name="address" id="address"><br>
+		<br>
+		<label for="postcode">Postal code: </label><input type="text" name="postcode" id="postcode"><br>
+		<br>
+		 </form>
+		 
+		 Province or Territory:
+		<select>
+		<option value="option"><i>Select your province or territory:</i></option>
+		<option value="AB">Alberta</option>
+		<option value="BC">British Columbia</option>
+		<option value="MB">Manitoba</option>
+		<option value="NB">New Brunswick</option>
+		<option value="NL">Newfoundland and Labrador</option>
+		<option value="NW">Northwest Territories</option>
+		<option value="NS">Nova Scotia</option>
+		<option value="NT">Nunavut</option>
+		<option value="ON">Ontario</option>
+		<option value="PE">Prince Edward Island</option>
+		<option value="QC">Quebec</option>
+		<option value="SK">Saskatchewan</option>
+		<option value="YK">Yukon</option>
+		
+		
+		
+</select>
+		 <br>
+		 <br>
+		 <label for="email">E-mail address: </label><input type="text" name="email" id="email"><br>
+		<br>
+		 
+		 Delivery time:<br>
+		 <input type="radio" name="delivery" value="morning"> Morning<br>
+		<input type="radio" name="delivery" value="evening"> Evening<br>
+		<input type="radio" name="delivery" value="weekend"> Weekend<br>
+		
+		<br>
+		<br>
+		
+		Credit card type:
+		<select>
+		<option value="option"><i>Select your card:</i></option>
+		<option value="Visa">Visa</option>
+		<option value="Mastercard">Mastercard</option>
+		<option value="Aexpress">American Express</option>
+		
+		
+</select>
+		<br>
+		<br>
+		<label for="creditcard">Credit card number: </label><input type="text" name="creditcard" id="creditcard"><br>
+		<br>
+		<label for="cvvcode">Security code: </label><input type="password" name="cvvcode" id="cvvcode"><br>
+		<br>
+		
+		Expiry date:
+		
+		Month:
+		<select>
+		<option value="Jan">January</option>
+		<option value="Feb">February</option>
+		<option value="Mar">March</option>
+		<option value="Apr">April</option>
+		<option value="May">May</option>
+		<option value="Jun">June</option>
+		<option value="Jul">July</option>
+		<option value="Aug">August</option>
+		<option value="Sep">September</option>
+		<option value="Oct">October</option>
+		<option value="Nov">November</option>
+		<option value="Dec">December</option>
+</select>
+		Year:
+		<select>
+		<option value="2016">2016</option>
+		<option value="2017">2017</option>
+		<option value="2018">2018</option>
+		<option value="2019">2019</option>
+		<option value="2020">2020</option>
+		<option value="2021">2021</option>
+		<option value="2022">2022</option>
+		<option value="2023">2023</option>
+		<option value="2024">2024</option>
+		<option value="2025">2025</option>
+	
+</select>
+		<br>
+		<br>
+		
+		<form method="post">
+  <input type="checkbox" name="Terms" value="agree"> I agree to the <a href="https://en.wikipedia.org/wiki/Terms_of_service">terms and conditions</a>.<br>
+  
+</form>
+		
+		<br>
+		<br>
+		<input type="submit" value="Place my order">
+		
+		
+		
+	</body>
+	
+	
+</html>
